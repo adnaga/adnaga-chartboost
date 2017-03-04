@@ -66,6 +66,14 @@ public class AdnagaChartboost implements IPlugin {
         });
     }
 
+    public void onPause() {
+
+    }
+
+    public void onResume() {
+
+    }
+
     private class MyChartboostListener extends ChartboostDelegate {
         @Override
         public void didDisplayInterstitial(String location) {
